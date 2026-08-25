@@ -1,0 +1,30 @@
+# Data files generated at runtime (fetched from the exchange API)
+data/*.csv
+*.csv
+!data/.gitkeep
+
+# Saved models
+models/*.pkl
+models/*.keras
+models/*.h5
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
